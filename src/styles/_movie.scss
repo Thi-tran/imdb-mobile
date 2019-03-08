@@ -1,0 +1,70 @@
+.poster-movie {
+    width: 160px;
+    transition: all .2s;
+    outline-offset: 1rem; 
+    border-radius: 2px;
+    position: relative;
+    z-index: 10;
+}
+
+.poster-movie:hover{
+    transform: scale(1.3);
+    border-radius: 2px;
+    z-index: 20;
+}
+
+
+.movie-box{
+    flex-direction: row;
+    max-height: 260px;
+    padding-bottom: 0px;
+}
+
+.relative{
+    position: relative;
+}
+
+.movie-text {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.movie-votes {
+    position: relative;
+    left: -22px;
+}
+
+.movie-votes-top{
+    position: relative;
+    font-size: 100%;
+    top: -25px;
+    left: 22px;
+}
+
+.movie-votes-slash{
+    font-size: 250%;
+    font-weight: 200;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    display: inline-block;
+  }
+
+.movie-votes-bottom{
+    position: relative;
+    left: -28px;
+}
+
+.movie-star{
+    position: relative;
+    width: 40px;
+    top: -17px;
+    left: -22px;
+}
+
+.movie-num-votes{
+    position: relative;
+    font-size: 70%;
+    top: -18px;
+    left: -15px;
+}
